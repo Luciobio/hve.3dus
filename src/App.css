@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+
+.nav{
+  background-color: #48484A;
+  position: relative;
+  width: 100vw;
+  height: 50px;
+}
