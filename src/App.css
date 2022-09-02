@@ -6,5 +6,76 @@
   background-color: #48484A;
   position: relative;
   width: 100vw;
-  height: 50px;
+  height: 5.6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav button{
+  color:white;
+  border-radius: 0px;
+  background-color: #48484A;
+  border: 1px solid white;
+}
+
+.leftBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 16vw;
+  align-items: center;
+}
+
+.menuBtn {
+  display: flex;
+  align-items: center;
+}
+
+.menuBtn:hover{
+  background-color: black;
+}
+
+.burgerIcon {
+  fill: white;
+  height: 20px;
+  margin: 2px 4px 2px 4px;
+}
+
+.rightBtns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 46vw;
+  align-items: center;
+}
+
+.navItem{
+  border-right: 1px solid white;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.bonvoy {
+  height: 50%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 18vw;
+  margin-top: 30px;
+}
+
+.carrousel {
+  width:90vw;
 }
