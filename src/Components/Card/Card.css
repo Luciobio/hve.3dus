@@ -1,3 +1,7 @@
+.Card {
+    width: 31%;
+}
+
 .cardImg {
     max-width: 100%;
     height: auto;

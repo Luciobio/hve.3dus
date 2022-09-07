@@ -2,7 +2,7 @@ import './Card.css'
 
 export default function Card({suite}) {
     return (
-        <div>
+        <div className='Card'>
             <img className='cardImg' src= {suite.img} alt= {suite.name}/>
             <h2>{suite.name}</h2>
             <div><h3>SIZE </h3> {suite.size}</div>
